@@ -1,0 +1,28 @@
+.banner{
+	width: 960px;
+	height: 360px;
+	margin: 0;
+
+	animation: slide 10s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes slide{
+
+	0%, 30%{
+             background-image: url(../images/estudantes-criativos.jpg);
+      }
+		35%, 65%{
+                   background-image: url(../images/image_secretariado.jpg);
+		}
+
+		70%, 100%{
+                     background-image: url(../images/yy.jpg);
+		}
+	
+}
+
+	body{
+		background-color: black;
+	}
+

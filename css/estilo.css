@@ -1,0 +1,138 @@
+/* CSS Document */
+*
+{
+margin:0;
+padding:0;
+}
+#tudo
+{
+margin:0 auto;
+width:990px;
+height:1000px;
+background:#CCCCCC;
+border-radius:9px;
+}
+#topo
+{
+background:#FFCCCC;
+width:990px;
+height:190px;
+}
+#menu
+{
+background:#FFFFFF;
+width:990px;
+height:70px;
+border-radius:4px;}
+#menu ul
+{
+padding:0;
+margin:0;}
+#menu ul li
+{font-family:Aquarium, 13_Misa, "#44 Font", creepy;
+list-style-type:none;
+display:inline-block;
+margin:15px;
+}
+#menu ul li a
+{
+
+text-decoration:none;
+	color:#000000;
+	font-size:20px;
+	margin-left:50px;
+}
+
+#menu ul li a:hover
+{
+
+text-decoration:none;
+	color:#00FF00;
+	font-size:24px;
+	margin-left:40px;
+}
+#cima 
+{
+background:#FFFFFF;
+width:990px;
+height:10px;
+border-radius:4px;}
+#baixo
+{
+background:#FFFFFF;
+width:990px;
+height:10px;
+border-radius:4px;
+margin-top:0px;}
+
+
+
+#conteudo
+{
+background:#CCCCCC;
+width:990px;
+height:700px;
+/*border-radius:4px;*/}
+#conteudoesquerdo
+{
+float:left;
+background:#FFFFFF;
+width:440px;
+height:570px;
+border-radius:4px;
+margin:20px;}
+#conteudoesquerdo img
+{
+margin-top:20px;
+width:410px;
+height:290px;
+}
+#conteudoesquerdo h2
+{
+margin-top:15px;
+}
+#conteudoesquerdo p
+{
+margin:7px;
+/*margin-top:34px;*/
+font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+#conteudodireito
+{
+float:right;
+background:#FFFFFF;
+width:440px;
+height:570px;
+border-radius:4px;
+margin:20px;}
+#conteudodireito img
+{
+margin-top:20px;
+width:410px;
+height:290px;
+
+}
+#conteudodireito h2
+{
+margin-top:15px;
+}
+#conteudodireito p
+{
+margin:7px;
+/*margin-top:34px;*/
+font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+#rodape
+{
+width:990px;
+height:100px;
+background:#33FF00;
+border-radius:10px;}
+
+
+@media screen and(max-width:520px){
+	body{
+		background-color: black;
+	}
+
+}
